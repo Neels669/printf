@@ -16,3 +16,6 @@ Authorized functions and macros:
 - va_end 
 - va_copy 
 - va_arg 
+
+Codes compiled this way: $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
+
