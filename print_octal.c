@@ -19,6 +19,7 @@ int print_octal(va_list args)
 		counter += write(1, "0", 1);
 		return (counter);
 	}
+
 	while (number > 0)
 	{
 		octal[i] = (number % 8) + '0';
