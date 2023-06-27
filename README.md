@@ -12,3 +12,4 @@ man or help:
 printf (3)
 Authorized functions and macros
 write & malloc & free & va_starts & va_end & va_copy & va_end
+we have finished it peasefully
