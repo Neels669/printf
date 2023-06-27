@@ -12,6 +12,7 @@ int print_str(va_list args)
 	char *string;
 
 	string = va_arg(args, char *);
+
 	if (string == NULL)
 		return (-1);
 
