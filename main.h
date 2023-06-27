@@ -1,11 +1,9 @@
-#ifndef PRINTF
-#define PRINTF
+#ifndef MAIN_H
+#define MAIN_H
 
 #include <stdio.h>
-#include <limits.h>
 #include <stdlib.h>
 #include <stdarg.h>
-#include <stdint.h>
 #include <unistd.>
 
 int _printf(const char *format, ...);
