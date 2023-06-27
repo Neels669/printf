@@ -28,6 +28,7 @@ int print_address(va_list args)
 		temp /= 16;
 		digits++;
 	}
+
 	str = malloc(sizeof(char) * (digits + 3));
 	if (str == NULL)
 		return (-1);
