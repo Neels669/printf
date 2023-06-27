@@ -10,7 +10,7 @@
 int print_unknown(va_list args)
 {
 	int counter;
-	char *s;
+	char *str;
 	(void)args;
 
 	str = "%r";
