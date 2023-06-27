@@ -25,10 +25,10 @@ int print_integer(va_list args)
 		else
 			i++;
 	}
-	for (i; i >= 0; i--)
+	for (; i >= 0; i--)
 	{
 		x[0] = ('0' + my_arr[i]);
-		counter += write(1, x, 1);
+		counter = counter + write(1, x, 1);
 	}
 	return (counter);
 }
