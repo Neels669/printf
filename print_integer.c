@@ -16,7 +16,7 @@ int print_integer(va_list args)
 	number = va_arg(args, int);
 	if (number < 0)
 	{
-		counter += write(1, "-", 1); 
+		counter += write(1, "-", 1);
 		number = -number;
 	}
 

@@ -18,15 +18,15 @@ Final compilation using gcc: (gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
 
 This is our header file with all function prototypes
 
-* _printf.c 
+* _printf.c
 
-This is the main function that has two arguments: int _printf(const char *format, ...);
+This is the main function that has two arguments:int _printf(const char *format, ...);
 
 Since we will use a cariable of functions, so we just use the syntax(...)
 
 * Checkit.c
 
-  This is where we have declared and stored our list of arguments
+This is where we have declared and stored our list of arguments
 
 * print_cent.c
 
@@ -48,4 +48,4 @@ Conversion specifiers for decimal
 
 Conversion specifiers for integers.
 
-So now we Finished the project Peacfully
+So now we Finished the project Peacfullyi
