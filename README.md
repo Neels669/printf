@@ -19,3 +19,9 @@ Authorized functions and macros:
 
 Codes compiled this way: $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
 
+printf cases to handle
+printf(“%s”, — — — — -)
+printf(“%c”, — )
+printf(“%%”)
+printf(“ String here”)
+printf(“%d or %i”)
