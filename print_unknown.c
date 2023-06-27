@@ -16,6 +16,5 @@ int print_unknown(va_list args)
 	str = "%r";
 
 	counter = write(1, str, 2);
-
 	return (counter);
 }

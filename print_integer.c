@@ -19,6 +19,7 @@ int print_integer(va_list args)
 		counter += write(1, "-", 1); 
 		number = -number;
 	}
+
 	while (number != 0)
 	{
 		my_arr[i] = (number % 10);
@@ -30,6 +31,7 @@ int print_integer(va_list args)
 		else
 			i++;
 	}
+
 	for (; i >= 0; i--)
 	{
 		x[0] = ('0' + my_arr[i]);
