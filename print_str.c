@@ -8,7 +8,6 @@
  */
 int print_str(va_list args)
 {
-	int i;
 	int counter = 0;
 	char *string;
 
@@ -16,10 +15,10 @@ int print_str(va_list args)
 	if (string == NULL)
 		return (-1);
 
-	while (string[i])
+	while (*string)
 	{
-		counter = write(1, &string[i], 1);
-		i += 1;
+		counter = write(1, string, 1);
+		string++;
 	}
 	return (counter);
 }

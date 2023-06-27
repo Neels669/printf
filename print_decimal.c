@@ -15,7 +15,11 @@ int print_decimal(va_list args)
 	char x[1];
 
 	number = va_arg(args, int);
-
+	if (number < 0)
+	{
+		counter += write(1, "-", 1);
+		number = -number;
+	}
 	while (number != 0)
 	{
 		my_arr[i] = (number % 10);

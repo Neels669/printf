@@ -13,7 +13,13 @@ int print_str(va_list);
 int print_cent(va_list);
 int print_integer(va_list);
 int print_decimal(va_list);
-
+int print_unsigned(va_list args);
+int print_hex(va_list args);
+int print_hex_upper(va_list args);
+int print_address(va_list args);
+int print_length(va_list args);
+int print_unknown(va_list args);
+int print_octal(va_list args);
 /**
  * struct fun - specifiers to pointer
  * @t: char to comare it
