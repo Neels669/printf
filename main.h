@@ -6,7 +6,6 @@
 #include <stdarg.h>
 #include <unistd.h>
 #include <stddef.h>
-int _putchar(char c);
 int _printf(const char *format, ...);
 int (*specifiers(const char *format))(va_list);
 int print_char(va_list);
@@ -21,6 +20,8 @@ int print_address(va_list args);
 int print_length(va_list args);
 int print_unknown(va_list args);
 int print_octal(va_list args);
+int print_binary(va_list args);
+int print_custom_string(va_list args);
 /**
  * struct fun - specifiers to pointer
  * @t: char to comare it

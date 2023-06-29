@@ -9,7 +9,7 @@ int (*specifiers(const char *format))(va_list)
 {
 	int i;
 
-	fun_t my_arr[13] = {
+	fun_t my_arr[15] = {
 		{"c", print_char},
 		{"s", print_str},
 		{"%", print_cent},
@@ -22,6 +22,8 @@ int (*specifiers(const char *format))(va_list)
 		{"p", print_address},
 		{"Len", print_length},
 		{"r", print_unknown},
+		{"b", print_binary},
+		{"S", print_custom_string},
 		{NULL, NULL}};
 	for (i = 0; my_arr[i].t != NULL; i++)
 	{
