@@ -5,7 +5,7 @@
  * @...: parameters as the function which is variadic
  * Return: Number of characters which has been printed
  */
-int _printf(const char * const format, ...)
+int _printf(const char *format, ...)
 {
 	int i = 0;
 	int counter = 0;
@@ -46,5 +46,6 @@ int _printf(const char * const format, ...)
 			}
 		}
 	}
+	va_end(args);
 	return (counter);
 }
